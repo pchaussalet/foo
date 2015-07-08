@@ -13,6 +13,18 @@
                 "element": {"#": "main"}
             }
         },
+        "inputRange": {
+            "prototype": "matte/ui/input-range.reel",
+            "properties": {
+                "element": {"#": "inputRange"},
+                "max": 100,
+                "min": 0,
+                "percent": "",
+                "step": "2",
+                "value": 50,
+                "width": "50%"
+            }
+        },
         "textField": {
             "prototype": "digit/ui/text-field.reel",
             "properties": {
@@ -27,6 +39,7 @@
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
         <input data-montage-id="textField" type="text">
+        <input type="range" data-montage-id="inputRange">
     </div>
 </body>
 </html>
