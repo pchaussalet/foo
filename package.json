@@ -2,7 +2,7 @@
     "name": "foo",
     "version": "0.1.0",
     "dependencies": {
-        "montage": "montagejs/montage#v0.15.2",
+        "montage": "montagejs/montage#2f72404983fbad2a82ddb16d8304eaa5472b1d78",
         "digit": "~0.5.0",
         "todomvc-common": "1.0.1",
         "matte": "0.2.0"
